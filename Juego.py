@@ -6,7 +6,7 @@ juego = True
 while juego:
     #Creamos una función
     def jugar():
-        #Se crea una lista de los elementos del juego
+        #Se crea una lista de los elementos del juego (Estructura de datos)
         opc = ["piedra", "papel", "tijera"]
         nombre = input("Por favor escribe tu nombre: ")
         #Se solicita el nombre para que sea personalizado
@@ -44,3 +44,4 @@ while juego:
     if respuesta != 's':
         juego = False
         print("Gracias por visitarnos. Vuelve pronto para jugar")
+
